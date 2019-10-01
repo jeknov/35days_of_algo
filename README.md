@@ -11,3 +11,7 @@ Day 2:
 Day 3:
 - [Permutations](https://github.com/jeknov/35days_of_algo/blob/master/problems/day03_01_permutations.ipynb)
 - [Combination Sum 3](https://github.com/jeknov/35days_of_algo/blob/master/problems/day03_02_combination_sum3.ipynb)
+
+Day 4:
+- [Subsets](https://github.com/jeknov/35days_of_algo/blob/master/problems/day04_01_subsets.ipynb)
+- [Combination Sum 4](https://github.com/jeknov/35days_of_algo/blob/master/problems/day04_02_combination_sum4.ipynb)
