@@ -20,3 +20,7 @@ Day 5:
 - [Simulate 5-sided die](https://github.com/jeknov/35days_of_algo/blob/master/problems/day_05_01_rand5_from_rand7.ipynb)
 - [Word Search](https://github.com/jeknov/35days_of_algo/blob/master/problems/day05_02_word_search.ipynb)
 - [Sort Colors](https://github.com/jeknov/35days_of_algo/blob/master/problems/day05_03_sort_color.ipynb)
+
+Day 6:
+- [Sum of Two Integers Without Using + or -](https://github.com/jeknov/35days_of_algo/blob/master/problems/day06_01_sum_two_integers.ipynb)
+- [Top K Frequent Elements](https://github.com/jeknov/35days_of_algo/blob/master/problems/day06_02_top_k_freq_elements.ipynb)
