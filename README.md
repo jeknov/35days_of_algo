@@ -24,3 +24,7 @@ Day 5:
 Day 6:
 - [Sum of Two Integers Without Using + or -](https://github.com/jeknov/35days_of_algo/blob/master/problems/day06_01_sum_two_integers.ipynb)
 - [Top K Frequent Elements](https://github.com/jeknov/35days_of_algo/blob/master/problems/day06_02_top_k_freq_elements.ipynb)
+
+Day 7:
+- [Happy Number](https://github.com/jeknov/35days_of_algo/blob/master/problems/day7_01_happy_number.ipynb)
+- [Kth Largest element](https://github.com/jeknov/35days_of_algo/blob/master/problems/day07_02_kth_largest_element.ipynb)
