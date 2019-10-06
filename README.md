@@ -28,3 +28,7 @@ Day 6:
 Day 7:
 - [Happy Number](https://github.com/jeknov/35days_of_algo/blob/master/problems/day7_01_happy_number.ipynb)
 - [Kth Largest element](https://github.com/jeknov/35days_of_algo/blob/master/problems/day07_02_kth_largest_element.ipynb)
+
+Day 8:
+- [Find Peak Element](https://github.com/jeknov/35days_of_algo/blob/master/problems/day08_01_find_peak_element.ipynb)
+- [Jump Game](https://github.com/jeknov/35days_of_algo/blob/master/problems/day08_02_jump_game.ipynb)
