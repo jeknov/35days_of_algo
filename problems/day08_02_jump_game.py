@@ -99,3 +99,26 @@ def jump_game_greedy(nums):
 # **Time complexity**: O(n). It's a single pass through the `nums` array, hence `n` steps, where `n` is the length of array `nums`.
 # 
 # **Space complexity**: O(1). No extra memory is used.
+
+# In[4]:
+
+
+# Tests:
+nums_list = [[2,3,1,1,4], [3,2,1,0,4]] 
+
+
+# In[5]:
+
+
+def test(nums_list):
+    for i, nums in enumerate(nums_list):
+        print("test No", i , ":\nnums:", nums, "\nResults:")
+        print(jump_game_greedy(nums))
+        print("*"*25, "\n")
+
+
+# In[6]:
+
+
+test(nums_list)
+

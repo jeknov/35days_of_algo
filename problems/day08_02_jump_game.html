@@ -11793,7 +11793,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[75]:</div>
+<div class="prompt input_prompt">In&nbsp;[1]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Memoisation version</span>
@@ -11836,7 +11836,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[80]:</div>
+<div class="prompt input_prompt">In&nbsp;[2]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># DP version</span>
@@ -11866,15 +11866,15 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>Time complexity</strong>: O(n^2). For every element in the array, say <code>i</code>, we are looking at the next <code>nums[i]</code> elements to its right aiming to find a <code>Good</code> index. <code>nums[i]</code> can be at most <code>n</code>, where nn is the length of array nums.</p>
-<p><strong>Space complexity</strong>: O(n). This comes from the usage of the <code>memo</code> table.</p>
+<p><strong>Time complexity</strong>: O(n^2). For every element <code>i</code> in the array, say <code>i</code>, the next <code>nums[i]</code> elements to its right is checked for having <code>Good</code> index. <code>nums[i]</code> can be at most <code>n</code>, where <code>n</code> is the length of array <code>nums</code>.</p>
+<p><strong>Space complexity</strong>: O(n). Size of the <code>memo</code> table.</p>
 
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[88]:</div>
+<div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Greedy version</span>
@@ -11897,11 +11897,84 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>Time complexity</strong>: O(n). It's a single pass through the <code>nums</code> array, hence nn steps, where nn is the length of array nums.</p>
-<p>Space complexity : O(1)O(1). We are not using any extra memory.</p>
+<p><strong>Time complexity</strong>: O(n). It's a single pass through the <code>nums</code> array, hence <code>n</code> steps, where <code>n</code> is the length of array <code>nums</code>.</p>
+<p><strong>Space complexity</strong>: O(1). No extra memory is used.</p>
 
 </div>
 </div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[4]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Tests:</span>
+<span class="n">nums_list</span> <span class="o">=</span> <span class="p">[[</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">4</span><span class="p">],</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">4</span><span class="p">]]</span> 
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[5]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">test</span><span class="p">(</span><span class="n">nums_list</span><span class="p">):</span>
+    <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">nums</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">nums_list</span><span class="p">):</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;test No&quot;</span><span class="p">,</span> <span class="n">i</span> <span class="p">,</span> <span class="s2">&quot;:</span><span class="se">\n</span><span class="s2">nums:&quot;</span><span class="p">,</span> <span class="n">nums</span><span class="p">,</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">Results:&quot;</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="n">jump_game_greedy</span><span class="p">(</span><span class="n">nums</span><span class="p">))</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;*&quot;</span><span class="o">*</span><span class="mi">25</span><span class="p">,</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">test</span><span class="p">(</span><span class="n">nums_list</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>test No 0 :
+nums: [2, 3, 1, 1, 4] 
+Results:
+True
+************************* 
+
+test No 1 :
+nums: [3, 2, 1, 0, 4] 
+Results:
+False
+************************* 
+
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
 </div>
     </div>
   </div>
