@@ -32,3 +32,7 @@ Day 7:
 Day 8:
 - [Find Peak Element](https://github.com/jeknov/35days_of_algo/blob/master/problems/day08_01_find_peak_element.ipynb)
 - [Jump Game](https://github.com/jeknov/35days_of_algo/blob/master/problems/day08_02_jump_game.ipynb)
+
+Day 9:
+- [Search for a Range](https://github.com/jeknov/35days_of_algo/blob/master/problems/day09_01_search_for_range.ipynb)
+- [Unique Paths](https://github.com/jeknov/35days_of_algo/blob/master/problems/day09_02_unique_paths.ipynb)
