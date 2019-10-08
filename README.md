@@ -36,3 +36,7 @@ Day 8:
 Day 9:
 - [Search for a Range](https://github.com/jeknov/35days_of_algo/blob/master/problems/day09_01_search_for_range.ipynb)
 - [Unique Paths](https://github.com/jeknov/35days_of_algo/blob/master/problems/day09_02_unique_paths.ipynb)
+
+Day 10:
+- [Merge Intervals](https://github.com/jeknov/35days_of_algo/blob/master/problems/day10_01_merge_intervals.ipynb)
+- [Binary Tree Inorder Traversal](https://github.com/jeknov/35days_of_algo/blob/master/problems/day10_02_binary_tree_inorder_traversal.ipynb)
