@@ -43,17 +43,17 @@ coins_list = [[1, 2, 5], [2]]
 amount_list = [11, 3]
 
 
-# In[3]:
+# In[5]:
 
 
 def test(coins_list, amount_list):
     for i, coins in enumerate(coins_list):
         print("test No", i , ":\ncoins:", coins, "amount:", amount_list[i], "\nResults:")
         print(coin_change(coins, amount_list[i]))
-        print("*"*25, "\n")
+        print("*"*20, "\n")
 
 
-# In[4]:
+# In[6]:
 
 
 test(coins_list, amount_list)
