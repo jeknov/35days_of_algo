@@ -40,3 +40,6 @@ Day 9:
 Day 10:
 - [Merge Intervals](https://github.com/jeknov/35days_of_algo/blob/master/problems/day10_01_merge_intervals.ipynb)
 - [Binary Tree Inorder Traversal](https://github.com/jeknov/35days_of_algo/blob/master/problems/day10_02_binary_tree_inorder_traversal.ipynb)
+
+Day 11:
+- [Search in Rotated Sorted Array](https://github.com/jeknov/35days_of_algo/blob/master/problems/day11_search_rotated_arr.ipynb)
