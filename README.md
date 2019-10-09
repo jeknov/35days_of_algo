@@ -43,3 +43,4 @@ Day 10:
 
 Day 11:
 - [Search in Rotated Sorted Array](https://github.com/jeknov/35days_of_algo/blob/master/problems/day11_search_rotated_arr.ipynb)
+- [Coin Change](https://github.com/jeknov/35days_of_algo/blob/master/problems/day11_coin_change.ipynb)
