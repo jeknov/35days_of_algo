@@ -48,3 +48,9 @@ Day 11:
 Day 12:
 - [Search a 2D Matrix](https://github.com/jeknov/35days_of_algo/blob/master/problems/day12_search_2d_matrix.ipynb)
 - [Excel Sheet Column Number](https://github.com/jeknov/35days_of_algo/blob/master/problems/day12_excel_col_num.ipynb)
+
+Day 13:
+- [Implement Pow(x, n)](https://github.com/jeknov/35days_of_algo/blob/master/problems/day13_01_pow.ipynb)
+
+Day 14:
+- [Longest Increasing Subsequence](https://github.com/jeknov/35days_of_algo/blob/master/problems/day13_02_longest_increasing_subseq.ipynb)
